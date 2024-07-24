@@ -1,0 +1,93 @@
+.DH1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(47, 63, 52);
+    background-color: rgb(47, 63, 52);
+}
+.H1{
+    margin: 5px;
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+.Div1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 10px 10px 10px;
+}
+.DIV1-P1{
+    text-align: center;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    margin: 10px;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.Div2{
+    margin: 15px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 2px solid rgba(18, 18, 18, 0.57);
+    background-color: rgba(18, 18, 18, 0.57);
+    border-radius: 20px;
+}
+.Div2-d1{
+    margin: 10px;
+    border: 2px solid rgba(88, 88, 88, 0.57);
+    background-color: rgba(88, 88, 88, 0.57);
+    border-radius: 20px;
+}
+.Div2-d1-p1{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+.Div2-d1-p2{
+    font-size: 14px;
+    margin: 10px;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+.Div-Btn{
+    margin: 100px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.BTN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: rgb(47, 63, 52);
+    outline: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+}
+@media screen and (max-width: 1024px) {
+    .Div2{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width: 700px){
+    .Div2{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
