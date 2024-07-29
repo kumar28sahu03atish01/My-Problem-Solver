@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Content:React.FC = () => {
     return (
         <>
             <h1>Welcome To Content Section</h1>
             <div>
-                <p>1. counter</p>
-                <p>2. Arithmetic Operation</p>
+                <Link to="/Counter">1. Counter Example</Link>
+                <Link to="/Arithmetic">2. Arithmetic Operation</Link>
                 <p>3. Even & Odd Number</p>
                 <p>4. Fibonacci Series</p>
                 <p>5. Multiplication Table</p>
